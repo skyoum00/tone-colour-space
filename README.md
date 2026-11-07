@@ -2,7 +2,7 @@
 
 Code, dated analysis plans and aggregate results for the paper
 
-> Sungkwan Youm. *Between 32 and 64 principal components identify a speaker in a voice converter's tone-colour space.*
+> Sungkwan Youm. *Effective dimensionality and speaker identifiability of a voice-conversion tone-colour embedding.*
 > Submitted to *Nature Communications* (under review), 2026.
 
 Author: Sungkwan Youm, Department of Computer Engineering, Sunchon National University, Republic of Korea
