@@ -1,0 +1,107 @@
+[
+ {
+  "id": "tts_ko-KR-HyunsuMultilingualNeural_s1",
+  "path": "ko-KR-HyunsuMultilingualNeural_s1.wav",
+  "gender": "남성",
+  "voice": "ko-KR-HyunsuMultilingualNeural",
+  "text": "오늘은 날씨가 맑아서 오후에 공원을 천천히 걸어 볼 생각이에요."
+ },
+ {
+  "id": "tts_ko-KR-HyunsuMultilingualNeural_s2",
+  "path": "ko-KR-HyunsuMultilingualNeural_s2.wav",
+  "gender": "남성",
+  "voice": "ko-KR-HyunsuMultilingualNeural",
+  "text": "내일 아침에는 조금 일찍 일어나서 집 앞 시장에 다녀와야 해요."
+ },
+ {
+  "id": "tts_ko-KR-HyunsuMultilingualNeural_s3",
+  "path": "ko-KR-HyunsuMultilingualNeural_s3.wav",
+  "gender": "남성",
+  "voice": "ko-KR-HyunsuMultilingualNeural",
+  "text": "요즘 저녁마다 따뜻한 차를 마시면서 책을 읽는 게 제일 좋아요."
+ },
+ {
+  "id": "tts_ko-KR-HyunsuMultilingualNeural_s4",
+  "path": "ko-KR-HyunsuMultilingualNeural_s4.wav",
+  "gender": "남성",
+  "voice": "ko-KR-HyunsuMultilingualNeural",
+  "text": "버스가 생각보다 늦게 와서 약속 시간에 조금 늦을 것 같아요."
+ },
+ {
+  "id": "tts_ko-KR-HyunsuMultilingualNeural_s5",
+  "path": "ko-KR-HyunsuMultilingualNeural_s5.wav",
+  "gender": "남성",
+  "voice": "ko-KR-HyunsuMultilingualNeural",
+  "text": "주말에는 가족들과 함께 집에서 맛있는 음식을 만들어 먹었어요."
+ },
+ {
+  "id": "tts_ko-KR-InJoonNeural_s1",
+  "path": "ko-KR-InJoonNeural_s1.wav",
+  "gender": "남성",
+  "voice": "ko-KR-InJoonNeural",
+  "text": "오늘은 날씨가 맑아서 오후에 공원을 천천히 걸어 볼 생각이에요."
+ },
+ {
+  "id": "tts_ko-KR-InJoonNeural_s2",
+  "path": "ko-KR-InJoonNeural_s2.wav",
+  "gender": "남성",
+  "voice": "ko-KR-InJoonNeural",
+  "text": "내일 아침에는 조금 일찍 일어나서 집 앞 시장에 다녀와야 해요."
+ },
+ {
+  "id": "tts_ko-KR-InJoonNeural_s3",
+  "path": "ko-KR-InJoonNeural_s3.wav",
+  "gender": "남성",
+  "voice": "ko-KR-InJoonNeural",
+  "text": "요즘 저녁마다 따뜻한 차를 마시면서 책을 읽는 게 제일 좋아요."
+ },
+ {
+  "id": "tts_ko-KR-InJoonNeural_s4",
+  "path": "ko-KR-InJoonNeural_s4.wav",
+  "gender": "남성",
+  "voice": "ko-KR-InJoonNeural",
+  "text": "버스가 생각보다 늦게 와서 약속 시간에 조금 늦을 것 같아요."
+ },
+ {
+  "id": "tts_ko-KR-InJoonNeural_s5",
+  "path": "ko-KR-InJoonNeural_s5.wav",
+  "gender": "남성",
+  "voice": "ko-KR-InJoonNeural",
+  "text": "주말에는 가족들과 함께 집에서 맛있는 음식을 만들어 먹었어요."
+ },
+ {
+  "id": "tts_ko-KR-SunHiNeural_s1",
+  "path": "ko-KR-SunHiNeural_s1.wav",
+  "gender": "여성",
+  "voice": "ko-KR-SunHiNeural",
+  "text": "오늘은 날씨가 맑아서 오후에 공원을 천천히 걸어 볼 생각이에요."
+ },
+ {
+  "id": "tts_ko-KR-SunHiNeural_s2",
+  "path": "ko-KR-SunHiNeural_s2.wav",
+  "gender": "여성",
+  "voice": "ko-KR-SunHiNeural",
+  "text": "내일 아침에는 조금 일찍 일어나서 집 앞 시장에 다녀와야 해요."
+ },
+ {
+  "id": "tts_ko-KR-SunHiNeural_s3",
+  "path": "ko-KR-SunHiNeural_s3.wav",
+  "gender": "여성",
+  "voice": "ko-KR-SunHiNeural",
+  "text": "요즘 저녁마다 따뜻한 차를 마시면서 책을 읽는 게 제일 좋아요."
+ },
+ {
+  "id": "tts_ko-KR-SunHiNeural_s4",
+  "path": "ko-KR-SunHiNeural_s4.wav",
+  "gender": "여성",
+  "voice": "ko-KR-SunHiNeural",
+  "text": "버스가 생각보다 늦게 와서 약속 시간에 조금 늦을 것 같아요."
+ },
+ {
+  "id": "tts_ko-KR-SunHiNeural_s5",
+  "path": "ko-KR-SunHiNeural_s5.wav",
+  "gender": "여성",
+  "voice": "ko-KR-SunHiNeural",
+  "text": "주말에는 가족들과 함께 집에서 맛있는 음식을 만들어 먹었어요."
+ }
+]

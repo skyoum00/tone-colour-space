@@ -1,0 +1,50 @@
+{
+ "0.85": {
+  "n_edges": 9116,
+  "n_components": 859,
+  "n_singletons": 599,
+  "largest_component": 79,
+  "n_components_size_ge_2": 260,
+  "size_quantiles_nonsingleton": {
+   "1": 2.0,
+   "5": 2.0,
+   "25": 2.0,
+   "50": 4.0,
+   "75": 8.0,
+   "95": 23.049999999999983,
+   "99": 42.410000000000025
+  }
+ },
+ "0.9": {
+  "n_edges": 4036,
+  "n_components": 1388,
+  "n_singletons": 1167,
+  "largest_component": 74,
+  "n_components_size_ge_2": 221,
+  "size_quantiles_nonsingleton": {
+   "1": 2.0,
+   "5": 2.0,
+   "25": 2.0,
+   "50": 3.0,
+   "75": 6.0,
+   "95": 17.0,
+   "99": 39.40000000000015
+  }
+ },
+ "0.95": {
+  "n_edges": 234,
+  "n_components": 2260,
+  "n_singletons": 2203,
+  "largest_component": 38,
+  "n_components_size_ge_2": 57,
+  "size_quantiles_nonsingleton": {
+   "1": 2.0,
+   "5": 2.0,
+   "25": 2.0,
+   "50": 2.0,
+   "75": 3.0,
+   "95": 8.799999999999962,
+   "99": 26.239999999999952
+  }
+ }
+}

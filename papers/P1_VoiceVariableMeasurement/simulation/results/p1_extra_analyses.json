@@ -1,0 +1,158 @@
+{
+ "n": 2410,
+ "declared": "PAPER_PLAN.md 2026-11-04 13:20",
+ "started": "2026-11-04 13:03:55",
+ "S1_extended_grid": {
+  "alphas": [
+   0.001,
+   0.01,
+   0.1,
+   1,
+   3,
+   10,
+   30
+  ],
+  "gammas": [
+   0.005,
+   0.01,
+   0.02,
+   0.05,
+   0.1,
+   0.2,
+   0.5
+  ],
+  "core19_krr_r2": 0.4062213448441251,
+  "ci95": [
+   0.3961607918157026,
+   0.41869140418529055
+  ],
+  "params": [
+   {
+    "alpha": 1,
+    "gamma": 0.1
+   },
+   {
+    "alpha": 0.1,
+    "gamma": 0.05
+   },
+   {
+    "alpha": 1,
+    "gamma": 0.1
+   },
+   {
+    "alpha": 1,
+    "gamma": 0.1
+   },
+   {
+    "alpha": 0.1,
+    "gamma": 0.05
+   },
+   {
+    "alpha": 0.1,
+    "gamma": 0.05
+   },
+   {
+    "alpha": 1,
+    "gamma": 0.1
+   },
+   {
+    "alpha": 0.1,
+    "gamma": 0.05
+   },
+   {
+    "alpha": 0.1,
+    "gamma": 0.05
+   },
+   {
+    "alpha": 0.1,
+    "gamma": 0.05
+   }
+  ],
+  "preregistered_grid_r2": 0.4062213448441251
+ },
+ "S2_high_cosine_pairs": {
+  "n_pairs_total": 2902845,
+  "n_pairs_cos_gt_0_85": 9155,
+  "fraction": 0.0031538025626583577,
+  "between_speaker_cos_whole_quantiles": {
+   "1": 0.02031294832432717,
+   "5": 0.10352418747019144,
+   "25": 0.19717952515428716,
+   "50": 0.2703520539386161,
+   "75": 0.3624539446921889,
+   "95": 0.5000175005403358,
+   "99": 0.610861973189079
+  },
+  "between_speaker_cos_mean": 0.28430432903100883,
+  "same_speaker_half1_half2_cos_quantiles": {
+   "1": 0.7554144434894328,
+   "5": 0.8374193593159602,
+   "25": 0.8960822276235196,
+   "50": 0.922868356363872,
+   "75": 0.9417047265996249,
+   "95": 0.9585467166206211,
+   "99": 0.966994288011942
+  },
+  "different_speaker_half1_half2_cos_quantiles": {
+   "1": 0.013023312076572369,
+   "5": 0.0931287338403681,
+   "25": 0.18648810705474592,
+   "50": 0.2585386482971077,
+   "75": 0.34801967754486035,
+   "95": 0.48418779908997645,
+   "99": 0.5947439558278445
+  },
+  "n_cross_half_different_speaker_cos_gt_0_85": 11990,
+  "n_same_speaker_half_cos_below_0_85": 176,
+  "high_pairs_same_conversation_file": 0,
+  "high_pairs_same_device": 8935,
+  "high_pairs_same_gender": 9122,
+  "base_rate_same_device": 0.61403867013309,
+  "speakers_in_any_high_pair": 1810,
+  "max_high_pairs_per_speaker": 73,
+  "median_high_pairs_per_involved_speaker": 5.0,
+  "high_pairs_by_gender_pair": {
+   "여성 / 여성": 8125,
+   "남성 / 남성": 997,
+   "남성 / 여성": 33
+  }
+ },
+ "S3_grouped_by_conversation": {
+  "n_files": 2157,
+  "speakers_sharing_a_file": 506,
+  "core19_krr_r2": 0.4054483784713461,
+  "ci95": [
+   0.39468957946786765,
+   0.41742278178479947
+  ],
+  "cross_half_krr_r2": 0.33978975945183665
+ },
+ "S4_identification": {
+  "cross_half_r2": 0.3388956815052325,
+  "predicted_from_half1_variables": {
+   "mean_cos_to_own": 0.7197308772718366,
+   "eer": 0.10835437759336103,
+   "top1": 0.05062240663900415,
+   "top10": 0.4473029045643154,
+   "median_rank": 13.0,
+   "n_candidates": 2410
+  },
+  "lower_training_fold_gender_mean": {
+   "mean_cos_to_own": 0.557835830942414,
+   "eer": 0.40254481327800834,
+   "top1": 0.0004149377593360996,
+   "top10": 0.007053941908713693,
+   "median_rank": 730.5,
+   "n_candidates": 2410
+  },
+  "upper_own_half1_embedding": {
+   "mean_cos_to_own": 0.9128194025480717,
+   "eer": 0.005327095435684659,
+   "top1": 0.8829875518672199,
+   "top10": 0.9937759336099585,
+   "median_rank": 1.0,
+   "n_candidates": 2410
+  }
+ },
+ "finished": "2026-11-04 13:09:34"
+}

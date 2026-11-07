@@ -1,0 +1,39 @@
+# Audio: corpus audio, TTS sources and converted voices are never committed
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.m4a
+*.ogg
+# Per-speaker arrays, vectors and embeddings
+*.npz
+*.npy
+*.joblib
+*.parquet
+*.jsonl
+*.csv
+# Run outputs and logs
+outputs/
+**/outputs/
+*.log
+logs/
+__pycache__/
+*.pyc
+# Corpus and derived per-speaker data
+data/
+paper_figures/
+simulation/eval_toolkit/tts_sources/
+simulation/eval_toolkit/validation_clips/
+simulation/eval_toolkit/splits.json
+simulation/eval_toolkit/gender_meter_balanced.json
+simulation/conversion_sources/aihub/
+simulation/conversion_sources/aihub_clips.json
+papers/P1_VoiceVariableMeasurement/simulation/results/eval/
+papers/P1_VoiceVariableMeasurement/superseded/
+# Stage-1 results: only the aggregate JSON files below are tracked
+simulation/stage1/results/*
+!simulation/stage1/results/h1_results.json
+!simulation/stage1/results/tone_colour_prediction.json
+!simulation/stage1/results/krr_gpu_equivalence.json
+!simulation/stage1/results/nested_gpu_equivalence.json
+*.png

@@ -1,0 +1,44 @@
+{
+ "ecapa_gt_0_85": {
+  "n_pairs": 9116,
+  "same_gender": 0.9963799912242212,
+  "same_age_band": 0.9826678367705134,
+  "same_device": 0.9758666081614743,
+  "same_conversation_file": 0.0,
+  "median_abs_snr_label_diff": 6.0
+ },
+ "tone_colour_quantile_matched": {
+  "threshold": 0.9103819847327363,
+  "n_pairs": 9116,
+  "same_gender": 0.9976963580517771,
+  "same_age_band": 0.9114743308468627,
+  "same_device": 0.9687362878455463,
+  "same_conversation_file": 0.00021939447125932427,
+  "median_abs_snr_label_diff": 6.0
+ },
+ "all_pairs_base_rate": {
+  "n_pairs": 2898028,
+  "same_gender": 0.6574774294796324,
+  "same_age_band": 0.24545449526367585,
+  "same_device": 0.6136334776613614,
+  "same_conversation_file": 8.69556815876175e-05,
+  "median_abs_snr_label_diff": 13.0
+ },
+ "edge_jaccard_ecapa_vs_tone_colour": 0.5026786450177203,
+ "tone_colour_components": {
+  "n_edges": 9116,
+  "n_components": 557,
+  "n_singletons": 440,
+  "largest_component": 1361,
+  "n_components_size_ge_2": 117,
+  "size_quantiles_nonsingleton": {
+   "1": 2.0,
+   "5": 2.0,
+   "25": 2.0,
+   "50": 2.0,
+   "75": 5.0,
+   "95": 16.599999999999966,
+   "99": 52.56000000000003
+  }
+ }
+}

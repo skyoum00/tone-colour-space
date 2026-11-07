@@ -1,0 +1,836 @@
+{
+ "sample": {
+  "gender": {
+   "여성": 1882,
+   "남성": 528
+  },
+  "age": {
+   "20대": 739,
+   "40대": 625,
+   "50대": 617,
+   "30대": 308,
+   "60대 이상": 121
+  },
+  "device": {
+   "스마트폰": 1835,
+   "PC": 422,
+   "테블릿": 145,
+   "기타": 8
+  },
+  "channel_sep_db_median": 24.12
+ },
+ "n_measured": 2525,
+ "n_errors": 14,
+ "n_used": 2410,
+ "n_truncated_audio_measured": 101,
+ "errors_sample": [
+  "insufficient in-bounds speech after truncation (9/48 segments, wav 679.9 s)",
+  "insufficient in-bounds speech after truncation (9/34 segments, wav 510.0 s)",
+  "insufficient in-bounds speech after truncation (4/34 segments, wav 1318.9 s)",
+  "insufficient in-bounds speech after truncation (3/33 segments, wav 899.1 s)",
+  "insufficient in-bounds speech after truncation (10/31 segments, wav 364.5 s)"
+ ],
+ "gate_threshold": 0.7,
+ "primary_krr_r2": 0.4062213448441251,
+ "primary_krr_r2_ci95": [
+  0.3961607918157026,
+  0.41869140418529055
+ ],
+ "krr_inner_params": [
+  {
+   "alpha": 1,
+   "gamma": 0.1
+  },
+  {
+   "alpha": 0.1,
+   "gamma": 0.05
+  },
+  {
+   "alpha": 1,
+   "gamma": 0.1
+  },
+  {
+   "alpha": 1,
+   "gamma": 0.1
+  },
+  {
+   "alpha": 0.1,
+   "gamma": 0.05
+  },
+  {
+   "alpha": 0.1,
+   "gamma": 0.05
+  },
+  {
+   "alpha": 1,
+   "gamma": 0.1
+  },
+  {
+   "alpha": 0.1,
+   "gamma": 0.05
+  },
+  {
+   "alpha": 0.1,
+   "gamma": 0.05
+  },
+  {
+   "alpha": 0.1,
+   "gamma": 0.05
+  }
+ ],
+ "linear_ridge_r2": 0.17794743776522343,
+ "linear_ridge_r2_ci95": [
+  0.1724016391793933,
+  0.18354668451813
+ ],
+ "gate1_pass": false,
+ "nuisance_only_r2": 0.01508727082366784,
+ "variables_plus_nuisance_krr_r2": 0.43034436247772456,
+ "split_half_embedding_r2": 0.759708298520591,
+ "variables_half1_to_embedding_half2_krr_r2": 0.3388956815052325,
+ "within_gender": {
+  "남성": {
+   "n": 528,
+   "krr_r2": 0.3778014025601272,
+   "ci95": [
+    0.3491406677256949,
+    0.4113331393878021
+   ]
+  },
+  "여성": {
+   "n": 1882,
+   "krr_r2": 0.39799839456132297,
+   "ci95": [
+    0.3830636556242811,
+    0.41217424640640343
+   ]
+  }
+ },
+ "sensitivity_sep_ge_10db": {
+  "n": 2136,
+  "krr_r2": 0.4060123505600178
+ },
+ "eer_variables": 0.05804814315352702,
+ "eer_ecapa": 0.005327095435684659,
+ "variable_split_half_r": {
+  "f0_mean_hz": 0.9779387167846548,
+  "f0_range_st": 0.7517056498791377,
+  "jitter_pct": 0.7856702112271541,
+  "shimmer_db": 0.879918135772183,
+  "hnr_db": 0.9193317596324123,
+  "h1_h2_db": 0.8542326642642478,
+  "slope_0_500": 0.9645116617617984,
+  "slope_500_1500": 0.8820458812357669,
+  "alpha_ratio_db": 0.8755141972488509,
+  "F1_hz": 0.8561779314551337,
+  "F2_hz": 0.8485995404208967,
+  "F3_hz": 0.9420900839403559,
+  "F4_hz": 0.9380667557121136,
+  "vtl_cm": 0.9548662265930118,
+  "low_band_0_1k_db": 0.7670448744201803,
+  "spk_formant_2_5_3_5k_db": 0.8484842993126392,
+  "spectral_centroid_hz": 0.792237139666665,
+  "speech_rate_syl_s": 0.9172259989164926,
+  "final_f0_slope_st_s": 0.25158840873990856
+ },
+ "drop_one_delta_r2": {
+  "f0_mean_hz": 0.024031754961784946,
+  "f0_range_st": 0.01263304688060135,
+  "jitter_pct": 0.008520416472997505,
+  "shimmer_db": 0.01294355923310403,
+  "hnr_db": 0.011181518580528793,
+  "h1_h2_db": 0.01397938431604362,
+  "slope_0_500": 0.018795157358576453,
+  "slope_500_1500": 0.009436656549752287,
+  "alpha_ratio_db": 0.0078674503594377,
+  "F1_hz": 0.013221512054321649,
+  "F2_hz": 0.008239189477730002,
+  "F3_hz": 0.012526660158180603,
+  "F4_hz": 0.006261561151367057,
+  "vtl_cm": 0.002290355543365652,
+  "low_band_0_1k_db": 0.003660804885416258,
+  "spk_formant_2_5_3_5k_db": 0.005019881849551933,
+  "spectral_centroid_hz": 0.005718908969650938,
+  "speech_rate_syl_s": 0.005022757388278454,
+  "final_f0_slope_st_s": -0.01029854651547285
+ },
+ "mi_with_top10_pcs": {
+  "f0_mean_hz": 1.5362825295835734,
+  "f0_range_st": 0.3056501584254434,
+  "jitter_pct": 0.5899351224470912,
+  "shimmer_db": 0.6380603768359254,
+  "hnr_db": 1.0638159265580454,
+  "h1_h2_db": 0.6993180532038785,
+  "slope_0_500": 0.8071236355662936,
+  "slope_500_1500": 0.5231075283556104,
+  "alpha_ratio_db": 0.49038755480424356,
+  "F1_hz": 0.5889389461682386,
+  "F2_hz": 0.5217021683329675,
+  "F3_hz": 1.4102415794546532,
+  "F4_hz": 1.1924060944859116,
+  "vtl_cm": 1.3180956537553445,
+  "low_band_0_1k_db": 0.3617492619178586,
+  "spk_formant_2_5_3_5k_db": 0.458960729574601,
+  "spectral_centroid_hz": 0.40302019418165,
+  "speech_rate_syl_s": 0.41260458820290147,
+  "final_f0_slope_st_s": 0.18494765502759325
+ },
+ "pc_variance_share_top10": [
+  0.0728,
+  0.053,
+  0.0401,
+  0.0372,
+  0.0313,
+  0.0301,
+  0.0295,
+  0.0262,
+  0.0247,
+  0.0221
+ ],
+ "variable_correlation": {
+  "f0_mean_hz": {
+   "f0_mean_hz": 1.0,
+   "f0_range_st": 0.117,
+   "jitter_pct": -0.543,
+   "shimmer_db": -0.497,
+   "hnr_db": 0.642,
+   "h1_h2_db": 0.495,
+   "slope_0_500": 0.611,
+   "slope_500_1500": 0.006,
+   "alpha_ratio_db": 0.149,
+   "F1_hz": 0.478,
+   "F2_hz": 0.313,
+   "F3_hz": 0.624,
+   "F4_hz": 0.585,
+   "vtl_cm": -0.664,
+   "low_band_0_1k_db": -0.161,
+   "spk_formant_2_5_3_5k_db": 0.112,
+   "spectral_centroid_hz": 0.221,
+   "speech_rate_syl_s": -0.203,
+   "final_f0_slope_st_s": -0.029
+  },
+  "f0_range_st": {
+   "f0_mean_hz": 0.117,
+   "f0_range_st": 1.0,
+   "jitter_pct": 0.313,
+   "shimmer_db": 0.251,
+   "hnr_db": -0.237,
+   "h1_h2_db": 0.118,
+   "slope_0_500": 0.096,
+   "slope_500_1500": 0.109,
+   "alpha_ratio_db": 0.169,
+   "F1_hz": 0.061,
+   "F2_hz": 0.046,
+   "F3_hz": -0.047,
+   "F4_hz": -0.1,
+   "vtl_cm": 0.067,
+   "low_band_0_1k_db": -0.19,
+   "spk_formant_2_5_3_5k_db": 0.214,
+   "spectral_centroid_hz": 0.216,
+   "speech_rate_syl_s": 0.167,
+   "final_f0_slope_st_s": -0.052
+  },
+  "jitter_pct": {
+   "f0_mean_hz": -0.543,
+   "f0_range_st": 0.313,
+   "jitter_pct": 1.0,
+   "shimmer_db": 0.635,
+   "hnr_db": -0.674,
+   "h1_h2_db": -0.138,
+   "slope_0_500": -0.477,
+   "slope_500_1500": 0.1,
+   "alpha_ratio_db": -0.173,
+   "F1_hz": -0.432,
+   "F2_hz": -0.022,
+   "F3_hz": -0.366,
+   "F4_hz": -0.28,
+   "vtl_cm": 0.325,
+   "low_band_0_1k_db": 0.148,
+   "spk_formant_2_5_3_5k_db": -0.035,
+   "spectral_centroid_hz": -0.17,
+   "speech_rate_syl_s": 0.298,
+   "final_f0_slope_st_s": 0.043
+  },
+  "shimmer_db": {
+   "f0_mean_hz": -0.497,
+   "f0_range_st": 0.251,
+   "jitter_pct": 0.635,
+   "shimmer_db": 1.0,
+   "hnr_db": -0.814,
+   "h1_h2_db": -0.303,
+   "slope_0_500": -0.288,
+   "slope_500_1500": 0.223,
+   "alpha_ratio_db": 0.172,
+   "F1_hz": -0.161,
+   "F2_hz": -0.064,
+   "F3_hz": -0.49,
+   "F4_hz": -0.48,
+   "vtl_cm": 0.497,
+   "low_band_0_1k_db": -0.13,
+   "spk_formant_2_5_3_5k_db": 0.116,
+   "spectral_centroid_hz": 0.085,
+   "speech_rate_syl_s": 0.33,
+   "final_f0_slope_st_s": -0.007
+  },
+  "hnr_db": {
+   "f0_mean_hz": 0.642,
+   "f0_range_st": -0.237,
+   "jitter_pct": -0.674,
+   "shimmer_db": -0.814,
+   "hnr_db": 1.0,
+   "h1_h2_db": 0.373,
+   "slope_0_500": 0.338,
+   "slope_500_1500": -0.274,
+   "alpha_ratio_db": -0.371,
+   "F1_hz": 0.144,
+   "F2_hz": -0.076,
+   "F3_hz": 0.498,
+   "F4_hz": 0.493,
+   "vtl_cm": -0.493,
+   "low_band_0_1k_db": 0.286,
+   "spk_formant_2_5_3_5k_db": -0.325,
+   "spectral_centroid_hz": -0.291,
+   "speech_rate_syl_s": -0.316,
+   "final_f0_slope_st_s": 0.004
+  },
+  "h1_h2_db": {
+   "f0_mean_hz": 0.495,
+   "f0_range_st": 0.118,
+   "jitter_pct": -0.138,
+   "shimmer_db": -0.303,
+   "hnr_db": 0.373,
+   "h1_h2_db": 1.0,
+   "slope_0_500": 0.099,
+   "slope_500_1500": 0.281,
+   "alpha_ratio_db": -0.094,
+   "F1_hz": -0.261,
+   "F2_hz": 0.254,
+   "F3_hz": 0.353,
+   "F4_hz": 0.306,
+   "vtl_cm": -0.362,
+   "low_band_0_1k_db": 0.027,
+   "spk_formant_2_5_3_5k_db": 0.089,
+   "spectral_centroid_hz": -0.099,
+   "speech_rate_syl_s": -0.144,
+   "final_f0_slope_st_s": 0.028
+  },
+  "slope_0_500": {
+   "f0_mean_hz": 0.611,
+   "f0_range_st": 0.096,
+   "jitter_pct": -0.477,
+   "shimmer_db": -0.288,
+   "hnr_db": 0.338,
+   "h1_h2_db": 0.099,
+   "slope_0_500": 1.0,
+   "slope_500_1500": -0.179,
+   "alpha_ratio_db": 0.245,
+   "F1_hz": 0.548,
+   "F2_hz": 0.128,
+   "F3_hz": 0.354,
+   "F4_hz": 0.378,
+   "vtl_cm": -0.401,
+   "low_band_0_1k_db": -0.125,
+   "spk_formant_2_5_3_5k_db": 0.036,
+   "spectral_centroid_hz": 0.311,
+   "speech_rate_syl_s": -0.075,
+   "final_f0_slope_st_s": -0.038
+  },
+  "slope_500_1500": {
+   "f0_mean_hz": 0.006,
+   "f0_range_st": 0.109,
+   "jitter_pct": 0.1,
+   "shimmer_db": 0.223,
+   "hnr_db": -0.274,
+   "h1_h2_db": 0.281,
+   "slope_0_500": -0.179,
+   "slope_500_1500": 1.0,
+   "alpha_ratio_db": 0.501,
+   "F1_hz": -0.18,
+   "F2_hz": 0.292,
+   "F3_hz": -0.124,
+   "F4_hz": -0.188,
+   "vtl_cm": 0.122,
+   "low_band_0_1k_db": -0.51,
+   "spk_formant_2_5_3_5k_db": 0.4,
+   "spectral_centroid_hz": 0.26,
+   "speech_rate_syl_s": 0.063,
+   "final_f0_slope_st_s": -0.019
+  },
+  "alpha_ratio_db": {
+   "f0_mean_hz": 0.149,
+   "f0_range_st": 0.169,
+   "jitter_pct": -0.173,
+   "shimmer_db": 0.172,
+   "hnr_db": -0.371,
+   "h1_h2_db": -0.094,
+   "slope_0_500": 0.245,
+   "slope_500_1500": 0.501,
+   "alpha_ratio_db": 1.0,
+   "F1_hz": 0.487,
+   "F2_hz": 0.384,
+   "F3_hz": -0.043,
+   "F4_hz": -0.143,
+   "vtl_cm": 0.036,
+   "low_band_0_1k_db": -0.785,
+   "spk_formant_2_5_3_5k_db": 0.706,
+   "spectral_centroid_hz": 0.771,
+   "speech_rate_syl_s": 0.066,
+   "final_f0_slope_st_s": -0.062
+  },
+  "F1_hz": {
+   "f0_mean_hz": 0.478,
+   "f0_range_st": 0.061,
+   "jitter_pct": -0.432,
+   "shimmer_db": -0.161,
+   "hnr_db": 0.144,
+   "h1_h2_db": -0.261,
+   "slope_0_500": 0.548,
+   "slope_500_1500": -0.18,
+   "alpha_ratio_db": 0.487,
+   "F1_hz": 1.0,
+   "F2_hz": 0.178,
+   "F3_hz": 0.307,
+   "F4_hz": 0.287,
+   "vtl_cm": -0.344,
+   "low_band_0_1k_db": -0.394,
+   "spk_formant_2_5_3_5k_db": 0.172,
+   "spectral_centroid_hz": 0.528,
+   "speech_rate_syl_s": -0.064,
+   "final_f0_slope_st_s": -0.066
+  },
+  "F2_hz": {
+   "f0_mean_hz": 0.313,
+   "f0_range_st": 0.046,
+   "jitter_pct": -0.022,
+   "shimmer_db": -0.064,
+   "hnr_db": -0.076,
+   "h1_h2_db": 0.254,
+   "slope_0_500": 0.128,
+   "slope_500_1500": 0.292,
+   "alpha_ratio_db": 0.384,
+   "F1_hz": 0.178,
+   "F2_hz": 1.0,
+   "F3_hz": 0.354,
+   "F4_hz": 0.378,
+   "vtl_cm": -0.511,
+   "low_band_0_1k_db": -0.253,
+   "spk_formant_2_5_3_5k_db": 0.45,
+   "spectral_centroid_hz": 0.299,
+   "speech_rate_syl_s": -0.102,
+   "final_f0_slope_st_s": -0.054
+  },
+  "F3_hz": {
+   "f0_mean_hz": 0.624,
+   "f0_range_st": -0.047,
+   "jitter_pct": -0.366,
+   "shimmer_db": -0.49,
+   "hnr_db": 0.498,
+   "h1_h2_db": 0.353,
+   "slope_0_500": 0.354,
+   "slope_500_1500": -0.124,
+   "alpha_ratio_db": -0.043,
+   "F1_hz": 0.307,
+   "F2_hz": 0.354,
+   "F3_hz": 1.0,
+   "F4_hz": 0.731,
+   "vtl_cm": -0.881,
+   "low_band_0_1k_db": 0.001,
+   "spk_formant_2_5_3_5k_db": 0.098,
+   "spectral_centroid_hz": 0.087,
+   "speech_rate_syl_s": -0.217,
+   "final_f0_slope_st_s": -0.049
+  },
+  "F4_hz": {
+   "f0_mean_hz": 0.585,
+   "f0_range_st": -0.1,
+   "jitter_pct": -0.28,
+   "shimmer_db": -0.48,
+   "hnr_db": 0.493,
+   "h1_h2_db": 0.306,
+   "slope_0_500": 0.378,
+   "slope_500_1500": -0.188,
+   "alpha_ratio_db": -0.143,
+   "F1_hz": 0.287,
+   "F2_hz": 0.378,
+   "F3_hz": 0.731,
+   "F4_hz": 1.0,
+   "vtl_cm": -0.948,
+   "low_band_0_1k_db": 0.095,
+   "spk_formant_2_5_3_5k_db": -0.161,
+   "spectral_centroid_hz": 0.025,
+   "speech_rate_syl_s": -0.192,
+   "final_f0_slope_st_s": -0.021
+  },
+  "vtl_cm": {
+   "f0_mean_hz": -0.664,
+   "f0_range_st": 0.067,
+   "jitter_pct": 0.325,
+   "shimmer_db": 0.497,
+   "hnr_db": -0.493,
+   "h1_h2_db": -0.362,
+   "slope_0_500": -0.401,
+   "slope_500_1500": 0.122,
+   "alpha_ratio_db": 0.036,
+   "F1_hz": -0.344,
+   "F2_hz": -0.511,
+   "F3_hz": -0.881,
+   "F4_hz": -0.948,
+   "vtl_cm": 1.0,
+   "low_band_0_1k_db": -0.01,
+   "spk_formant_2_5_3_5k_db": -0.014,
+   "spectral_centroid_hz": -0.105,
+   "speech_rate_syl_s": 0.22,
+   "final_f0_slope_st_s": 0.038
+  },
+  "low_band_0_1k_db": {
+   "f0_mean_hz": -0.161,
+   "f0_range_st": -0.19,
+   "jitter_pct": 0.148,
+   "shimmer_db": -0.13,
+   "hnr_db": 0.286,
+   "h1_h2_db": 0.027,
+   "slope_0_500": -0.125,
+   "slope_500_1500": -0.51,
+   "alpha_ratio_db": -0.785,
+   "F1_hz": -0.394,
+   "F2_hz": -0.253,
+   "F3_hz": 0.001,
+   "F4_hz": 0.095,
+   "vtl_cm": -0.01,
+   "low_band_0_1k_db": 1.0,
+   "spk_formant_2_5_3_5k_db": -0.655,
+   "spectral_centroid_hz": -0.876,
+   "speech_rate_syl_s": -0.037,
+   "final_f0_slope_st_s": 0.059
+  },
+  "spk_formant_2_5_3_5k_db": {
+   "f0_mean_hz": 0.112,
+   "f0_range_st": 0.214,
+   "jitter_pct": -0.035,
+   "shimmer_db": 0.116,
+   "hnr_db": -0.325,
+   "h1_h2_db": 0.089,
+   "slope_0_500": 0.036,
+   "slope_500_1500": 0.4,
+   "alpha_ratio_db": 0.706,
+   "F1_hz": 0.172,
+   "F2_hz": 0.45,
+   "F3_hz": 0.098,
+   "F4_hz": -0.161,
+   "vtl_cm": -0.014,
+   "low_band_0_1k_db": -0.655,
+   "spk_formant_2_5_3_5k_db": 1.0,
+   "spectral_centroid_hz": 0.661,
+   "speech_rate_syl_s": 0.064,
+   "final_f0_slope_st_s": -0.059
+  },
+  "spectral_centroid_hz": {
+   "f0_mean_hz": 0.221,
+   "f0_range_st": 0.216,
+   "jitter_pct": -0.17,
+   "shimmer_db": 0.085,
+   "hnr_db": -0.291,
+   "h1_h2_db": -0.099,
+   "slope_0_500": 0.311,
+   "slope_500_1500": 0.26,
+   "alpha_ratio_db": 0.771,
+   "F1_hz": 0.528,
+   "F2_hz": 0.299,
+   "F3_hz": 0.087,
+   "F4_hz": 0.025,
+   "vtl_cm": -0.105,
+   "low_band_0_1k_db": -0.876,
+   "spk_formant_2_5_3_5k_db": 0.661,
+   "spectral_centroid_hz": 1.0,
+   "speech_rate_syl_s": 0.053,
+   "final_f0_slope_st_s": -0.074
+  },
+  "speech_rate_syl_s": {
+   "f0_mean_hz": -0.203,
+   "f0_range_st": 0.167,
+   "jitter_pct": 0.298,
+   "shimmer_db": 0.33,
+   "hnr_db": -0.316,
+   "h1_h2_db": -0.144,
+   "slope_0_500": -0.075,
+   "slope_500_1500": 0.063,
+   "alpha_ratio_db": 0.066,
+   "F1_hz": -0.064,
+   "F2_hz": -0.102,
+   "F3_hz": -0.217,
+   "F4_hz": -0.192,
+   "vtl_cm": 0.22,
+   "low_band_0_1k_db": -0.037,
+   "spk_formant_2_5_3_5k_db": 0.064,
+   "spectral_centroid_hz": 0.053,
+   "speech_rate_syl_s": 1.0,
+   "final_f0_slope_st_s": -0.026
+  },
+  "final_f0_slope_st_s": {
+   "f0_mean_hz": -0.029,
+   "f0_range_st": -0.052,
+   "jitter_pct": 0.043,
+   "shimmer_db": -0.007,
+   "hnr_db": 0.004,
+   "h1_h2_db": 0.028,
+   "slope_0_500": -0.038,
+   "slope_500_1500": -0.019,
+   "alpha_ratio_db": -0.062,
+   "F1_hz": -0.066,
+   "F2_hz": -0.054,
+   "F3_hz": -0.049,
+   "F4_hz": -0.021,
+   "vtl_cm": 0.038,
+   "low_band_0_1k_db": 0.059,
+   "spk_formant_2_5_3_5k_db": -0.059,
+   "spectral_centroid_hz": -0.074,
+   "speech_rate_syl_s": -0.026,
+   "final_f0_slope_st_s": 1.0
+  }
+ },
+ "amendments_A1_A2": {
+  "interpretable_pool_size": 135,
+  "egemaps_pool_size": 88,
+  "interpretable_pool": {
+   "n_vars": 135,
+   "krr_r2": 0.5883649506335622,
+   "ci95": [
+    0.5798757719512979,
+    0.5976654856272015
+   ]
+  },
+  "interpretable_pool_without_ltas": {
+   "n_vars": 119,
+   "krr_r2": 0.5897721039922968,
+   "ci95": [
+    0.5807470859743515,
+    0.5997852028858726
+   ]
+  },
+  "interpretable_plus_egemaps": {
+   "n_vars": 223,
+   "krr_r2": 0.6066348872923111,
+   "ci95": [
+    0.5973911933784466,
+    0.6159810933030028
+   ]
+  },
+  "huckvale_like_subset": {
+   "n_vars": 10,
+   "krr_r2": 0.33951970777112567,
+   "ci95": [
+    0.3276482073294816,
+    0.3516946091243641
+   ]
+  },
+  "flagged_in_interpretable": [
+   "jitter_pct",
+   "shimmer_db",
+   "jitter_rap_pct",
+   "jitter_ppq5_pct",
+   "shimmer_local_pct",
+   "shimmer_apq3_pct",
+   "shimmer_apq5_pct",
+   "shimmer_apq11_pct",
+   "B1_hz",
+   "B2_hz",
+   "B3_hz",
+   "B4_hz",
+   "ltas_7000_7500hz_db",
+   "ltas_7500_8000hz_db"
+  ],
+  "spectral_envelope_3oct_only": {
+   "n_vars": 19,
+   "krr_r2": 0.30778515631748965,
+   "ci95": [
+    0.2976690702245632,
+    0.32010393806245824
+   ],
+   "plus_nuisance_krr_r2": 0.33631409041560173
+  },
+  "ltas_3oct_only": {
+   "n_vars": 19,
+   "krr_r2": 0.3698875774337843,
+   "ci95": [
+    0.3598024945039196,
+    0.38146981336475616
+   ],
+   "plus_nuisance_krr_r2": 0.38526143104596855
+  },
+  "mfcc_only": {
+   "n_vars": 40,
+   "krr_r2": 0.5644259523846233,
+   "ci95": [
+    0.5545381674864095,
+    0.5747476041435534
+   ],
+   "plus_nuisance_krr_r2": 0.5655612659115206
+  },
+  "core19_plus_spectral_envelope": {
+   "n_vars": 38,
+   "krr_r2": 0.4748253044587261,
+   "ci95": [
+    0.46386907870643096,
+    0.48694436144256
+   ],
+   "plus_nuisance_krr_r2": 0.49136068578610037
+  },
+  "interpretable_plus_mfcc": {
+   "n_vars": 175,
+   "krr_r2": 0.6447031656441893,
+   "ci95": [
+    0.6367348034981637,
+    0.6529010778607488
+   ],
+   "plus_nuisance_krr_r2": 0.6468150016194485
+  },
+  "lfcc_only": {
+   "n_vars": 40,
+   "krr_r2": 0.5428175572605436,
+   "ci95": [
+    0.532390809758259,
+    0.5547658431063556
+   ],
+   "plus_nuisance_krr_r2": 0.5482712572833978
+  },
+  "high_band_erb_envelope_only": {
+   "n_vars": 13,
+   "krr_r2": 0.2599941968843214,
+   "ci95": [
+    0.2511318630431325,
+    0.270745192401608
+   ],
+   "plus_nuisance_krr_r2": 0.29369623651215443
+  },
+  "voice_quality_A5_only": {
+   "n_vars": 23,
+   "krr_r2": 0.4346508496915247,
+   "ci95": [
+    0.42318551893851303,
+    0.44702465878932934
+   ],
+   "plus_nuisance_krr_r2": 0.4469099995351131
+  },
+  "core19_plus_voice_quality_A5": {
+   "n_vars": 42,
+   "krr_r2": 0.5200259655015168,
+   "ci95": [
+    0.5098869182577802,
+    0.5315807035215245
+   ],
+   "plus_nuisance_krr_r2": 0.5319523906162602
+  },
+  "interpretable_minus_flagged": {
+   "n_vars": 121,
+   "krr_r2": 0.5746720144277435,
+   "ci95": [
+    0.5652963385860877,
+    0.5845737902412136
+   ],
+   "plus_nuisance_krr_r2": 0.5804259685095073
+  },
+  "interpretable_plus_mfcc_lfcc": {
+   "n_vars": 215,
+   "krr_r2": 0.6653061244930657,
+   "ci95": [
+    0.6577056262808143,
+    0.673707538250655
+   ],
+   "plus_nuisance_krr_r2": 0.6664536883533269
+  },
+  "interpretable_pool_plus_nuisance_krr_r2": 0.5943137175202176,
+  "gender_age_only_r2": 0.09378567706365111,
+  "core19_plus_gender_age_krr_r2": 0.46941801802188954,
+  "between_gender_share_of_total_ss": 0.05547847334526138,
+  "core19_within_gender_centred_krr_r2": 0.36241631577495625,
+  "interpretable_pool_within_gender_centred_krr_r2": 0.552060862387872,
+  "speaker_pairs_cosine_gt_0_85": 9155,
+  "split_half_note": "same-session, half-length bound, not a true ceiling (A2)",
+  "nested_selection_curve": {
+   "5": {
+    "krr_r2": 0.2188753128932447,
+    "variables_selected_in_ge_8_of_10_folds": [
+     "vtl_cm",
+     "F3_hz",
+     "f0_mean_hz",
+     "envERB32_db",
+     "cpps_db"
+    ]
+   },
+   "10": {
+    "krr_r2": 0.3596052275173514,
+    "variables_selected_in_ge_8_of_10_folds": [
+     "vtl_cm",
+     "F3_hz",
+     "f0_mean_hz",
+     "cpps_db",
+     "envERB32_db",
+     "voiced_fraction",
+     "vq_H2kc_H5k_db",
+     "envERB25_db"
+    ]
+   },
+   "15": {
+    "krr_r2": 0.4435852789850398,
+    "variables_selected_in_ge_8_of_10_folds": [
+     "vtl_cm",
+     "F3_hz",
+     "f0_mean_hz",
+     "cpps_db",
+     "envERB32_db",
+     "voiced_fraction",
+     "vq_H2kc_H5k_db",
+     "envERB25_db",
+     "cov_f0",
+     "B2_hz",
+     "ltas3oct_160hz_db"
+    ]
+   },
+   "20": {
+    "krr_r2": 0.48863024545081274,
+    "variables_selected_in_ge_8_of_10_folds": [
+     "vtl_cm",
+     "F3_hz",
+     "f0_mean_hz",
+     "cpps_db",
+     "envERB32_db",
+     "envERB25_db",
+     "voiced_fraction",
+     "vq_H2kc_H5k_db",
+     "B2_hz",
+     "cov_f0",
+     "ltas3oct_160hz_db",
+     "envERB26_db"
+    ]
+   },
+   "30": {
+    "krr_r2": 0.5397678845221816,
+    "variables_selected_in_ge_8_of_10_folds": [
+     "vtl_cm",
+     "F3_hz",
+     "f0_mean_hz",
+     "cpps_db",
+     "envERB32_db",
+     "envERB25_db",
+     "voiced_fraction",
+     "vq_H2kc_H5k_db",
+     "B2_hz",
+     "cov_f0",
+     "ltas3oct_160hz_db",
+     "h1_h2_db",
+     "B4_hz",
+     "cov_F4",
+     "ltas_7500_8000hz_db",
+     "F2_sd_hz",
+     "ltas_5000_5500hz_db",
+     "cov_F3",
+     "speech_rate_syl_s",
+     "envERB26_db",
+     "cov_shr",
+     "envERB24_db",
+     "envERB27_db"
+    ]
+   }
+  }
+ }
+}

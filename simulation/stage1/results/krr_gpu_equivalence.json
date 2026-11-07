@@ -1,0 +1,13 @@
+{
+ "sklearn_best": {
+  "alpha": 0.1,
+  "gamma": 0.005
+ },
+ "gpu_best": {
+  "alpha": 0.1,
+  "gamma": 0.005
+ },
+ "max_abs_cv_score_diff": 3.1086244689504383e-15,
+ "max_abs_pred_diff": 1.5162870958818075e-13,
+ "device": "cuda"
+}

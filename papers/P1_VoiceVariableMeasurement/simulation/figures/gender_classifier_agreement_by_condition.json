@@ -1,0 +1,26 @@
+{
+ "D1": {
+  "gender_agree_meter": 1.0,
+  "gender_agree_audeering": 1.0
+ },
+ "D3": {
+  "gender_agree_meter": 0.9944444444444445,
+  "gender_agree_audeering": 1.0
+ },
+ "C2_k4": {
+  "gender_agree_meter": 0.9833333333333333,
+  "gender_agree_audeering": 0.9833333333333333
+ },
+ "C2_k16": {
+  "gender_agree_meter": 0.9833333333333333,
+  "gender_agree_audeering": 1.0
+ },
+ "C2_k64": {
+  "gender_agree_meter": 0.9833333333333333,
+  "gender_agree_audeering": 0.9888888888888889
+ },
+ "C2_k256": {
+  "gender_agree_meter": 0.9833333333333333,
+  "gender_agree_audeering": 0.9944444444444445
+ }
+}

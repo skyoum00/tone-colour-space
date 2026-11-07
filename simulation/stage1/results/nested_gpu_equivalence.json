@@ -1,0 +1,1 @@
+{"path_tests": [{"sklearn_path": [0, 4, 3, 1], "gpu_path": [0, 4, 3, 1], "device": "cpu"}, {"sklearn_path": [0, 3, 4, 2], "gpu_path": [0, 3, 4, 2], "device": "cpu"}, {"sklearn_path": [2, 4, 3, 1], "gpu_path": [2, 4, 3, 1], "device": "cpu"}], "score_sklearn": 0.8476900800641124, "score_gpu": 0.847690080064113, "abs_diff": 5.551115123125783e-16, "sk_alpha": 1.0}
